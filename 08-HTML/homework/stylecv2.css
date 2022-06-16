@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    background-color: lightblue;
+    height: 130px;
+    text-align: center;
+
+}
+
+.encabezado img {
+    width: 125px;
+    height: 125px;
+    border-radius: 9px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -85px;
+}
+
+#titulo {
+    font-size: 40px;
+    padding: 20px;
+    
+}
+
+.contenedor.izq {
+    background-color: blue;
+}
+
+.datos-izq {
+    width: 280px;
+    height:100%;  
+    padding: 20px;
+    float: left;
+
+
+}
+
+.contenedor_der {
+    background-color: blue;
+}
+
+.exp_laboral {
+    width: 614px;
+    height: 527px;
+    background-color: rgb(209, 195, 205);
+    float: left;
+    padding: 20px;
+    
+}
+
+body{
+    width: 900px;
+    height: 100vh;  
+    border: solid;
+}

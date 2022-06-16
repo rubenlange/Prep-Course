@@ -1,20 +1,36 @@
-.divClass h1 {
-    color: rgb(187, 255, 0);
+h1{
+    color: blue;
 }
 
-#thirdDiv ul li img {
+img{
     width: 400px;
 }
 
-#thirDiv {
+#thirdDiv{
     height: 600px;
     width: 500px;
-    background-color: red;
+    background-color: brown;
     padding: 50px;
-    border: 5px orange;
+    border: 5px solid orange;
+
 }
 
-.divClass #spanId {
+#spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+body{
+    background-image: url(https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/plato.jpg.webp?itok=W3zlm_Ou);
+}
+
+.divClass{
+    text-align: center;
+}
+
+.flex_contenedor{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    
 }
